@@ -17,7 +17,7 @@ namespace LightningFastWordFinder
             {
                 Console.WriteLine("Run: " + i);
                 LightningWordFinder parser = new LightningWordFinder();
-                longestWord = parser.GetWordInfo(text);
+                longestWord = parser.GetLongestWord(text);
 
                 if (longestWord != "Constantinopolitan")
                 {
